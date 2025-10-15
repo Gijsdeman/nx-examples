@@ -17,6 +17,9 @@
       "path": "../../libs/shared/header"
     },
     {
+      "path": "../../libs/test-factory"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

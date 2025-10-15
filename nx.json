@@ -97,6 +97,11 @@
     },
     "e2e-ci--**/*": {
       "dependsOn": ["^products:build"]
+    },
+    "@nx/js:tsc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     }
   },
   "namedInputs": {
@@ -143,6 +148,20 @@
       "options": {
         "typecheck": {},
         "build": false
+      },
+      "exclude": ["libs/test-factory/*"]
+    },
+    {
+      "plugin": "@nx/js/typescript",
+      "include": ["libs/test-factory/*"],
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json"
+        }
       }
     }
   ],

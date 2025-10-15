@@ -13,7 +13,7 @@
     "../../libs/products/home-page/src/index.ts",
     "../../libs/products/product-detail-page/src/index.ts"
   ],
-  "exclude": ["jest.config.ts"],
+  "exclude": ["jest.config.ts", "src/**/*.spec.ts"],
   "references": [
     {
       "path": "../../libs/products/product-detail-page/tsconfig.lib.json"
@@ -23,6 +23,9 @@
     },
     {
       "path": "../../libs/shared/header/tsconfig.lib.json"
+    },
+    {
+      "path": "../../libs/test-factory/tsconfig.lib.json"
     }
   ]
 }

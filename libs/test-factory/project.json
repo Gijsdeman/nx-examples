@@ -1,0 +1,19 @@
+{
+  "name": "test-factory",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/test-factory/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/test-factory",
+        "main": "libs/test-factory/src/index.ts",
+        "tsConfig": "libs/test-factory/tsconfig.lib.json",
+        "assets": ["libs/test-factory/*.md"]
+      }
+    }
+  }
+}

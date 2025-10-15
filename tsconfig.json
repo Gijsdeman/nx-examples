@@ -46,6 +46,9 @@
     },
     {
       "path": "./apps/cart"
+    },
+    {
+      "path": "./libs/test-factory"
     }
   ]
 }
