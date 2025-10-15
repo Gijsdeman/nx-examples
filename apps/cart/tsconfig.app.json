@@ -18,5 +18,13 @@
   "files": [
     "../../node_modules/@nx/react/typings/cssmodule.d.ts",
     "../../node_modules/@nx/react/typings/image.d.ts"
+  ],
+  "references": [
+    {
+      "path": "../../libs/cart/cart-page/tsconfig.lib.json"
+    },
+    {
+      "path": "../../libs/shared/header/tsconfig.lib.json"
+    }
   ]
 }

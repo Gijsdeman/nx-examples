@@ -11,6 +11,15 @@
   "files": [],
   "references": [
     {
+      "path": "../../shared/product/state"
+    },
+    {
+      "path": "../../shared/cart/state"
+    },
+    {
+      "path": "../../shared/product/ui"
+    },
+    {
       "path": "./tsconfig.lib.json"
     },
     {

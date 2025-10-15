@@ -8,6 +8,15 @@
   "files": [],
   "references": [
     {
+      "path": "../../libs/products/product-detail-page"
+    },
+    {
+      "path": "../../libs/products/home-page"
+    },
+    {
+      "path": "../../libs/shared/header"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

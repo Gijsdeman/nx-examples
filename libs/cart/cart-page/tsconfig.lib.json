@@ -11,5 +11,16 @@
     "**/*.test.tsx",
     "jest.config.ts"
   ],
-  "include": ["**/*.ts", "**/*.tsx"]
+  "include": ["**/*.ts", "**/*.tsx"],
+  "references": [
+    {
+      "path": "../../shared/product/state/tsconfig.lib.json"
+    },
+    {
+      "path": "../../shared/cart/state/tsconfig.lib.json"
+    },
+    {
+      "path": "../../shared/product/ui/tsconfig.lib.json"
+    }
+  ]
 }

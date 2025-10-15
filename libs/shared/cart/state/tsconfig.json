@@ -8,6 +8,12 @@
   "files": [],
   "references": [
     {
+      "path": "../../product/state"
+    },
+    {
+      "path": "../../product/data"
+    },
+    {
       "path": "./tsconfig.lib.json"
     },
     {

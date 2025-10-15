@@ -4,7 +4,7 @@
     "rootDir": ".",
     "noUnusedLocals": true,
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -48,7 +48,8 @@
       ],
       "@nx-example/shared/product/ui": ["libs/shared/product/ui/src/index.ts"],
       "@nx-example/shared/styles": ["libs/shared/styles/src/index.ts"]
-    }
+    },
+    "composite": true
   },
   "exclude": ["node_modules", "tmp"]
 }

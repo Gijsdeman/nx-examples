@@ -22,5 +22,13 @@
     "**/*.test.ts",
     "jest.config.ts"
   ],
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts"],
+  "references": [
+    {
+      "path": "../../product/state/tsconfig.lib.json"
+    },
+    {
+      "path": "../../product/data/tsconfig.lib.json"
+    }
+  ]
 }

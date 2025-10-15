@@ -8,6 +8,15 @@
   "files": [],
   "references": [
     {
+      "path": "../../shared/product/ui"
+    },
+    {
+      "path": "../../shared/product/types"
+    },
+    {
+      "path": "../../shared/product/state"
+    },
+    {
       "path": "./tsconfig.lib.json"
     },
     {
